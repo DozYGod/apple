@@ -1,0 +1,436 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    cursor: pointer;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 1600px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+.hider__bloc{
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F7;
+}
+.hider__bloc_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+}
+
+.box__item_img{
+    object-fit: cover;
+}
+.box-text-img{
+    display: flex ;
+    padding: 15px;
+    margin-left: 15px;
+    justify-content: center;
+}
+.text{
+    margin-left: 30px;
+    color: #000000;
+}
+.material-symbols-outlined{
+    margin-left: 30px;
+}
+.box-text-icon{
+    width: 1200px;
+    height: 100px;
+    margin-left: 350px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+    border-radius: 20px;
+}
+.box-item{
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+}
+.item{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.text-1{
+    margin-left: 10px;
+}
+.item-1{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.text-2{
+    font-size: 13px;
+    margin-top: 2px;
+}
+.box-right-left{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.left{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+}
+.text-3{
+    color: orange;
+    font-size: 25px;
+}
+.text-4{
+    font-size: 45px;
+    font-weight: bold;
+}
+.text-5{
+    font-size: 13px;
+    margin-top :10px;
+}
+.text-7{
+    margin-top: 50px;
+    padding-top: 15px ;
+    margin-left: 10px;
+}
+.text-6{
+    margin-top: 20px;
+    padding-top: 15px ;
+    margin-left: 10px;
+}
+.fiks-block-two{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.fiks-right{
+    margin-right: 70px;
+    margin-bottom: 120px;
+}
+.fiks-left{
+    width: 1520px;
+    height: 1800px;
+}
+.text-8{
+    color: black;
+    font-size: 25px;
+}
+.block-text{
+    width: 320px;
+    height: 100px;
+    border: 2px solid rgb(245, 245, 245) ;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-9{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.right-text{
+    margin-left: 20px;
+
+}
+.left-text{
+    margin-top: 15px;
+    margin-right: 10px ;
+}
+.text-10{
+    font-size: 15px;
+    color: gray;
+}
+.text-11{
+    font-size: 16px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.itembg{
+    width: 335px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #F5F5F7;
+}
+.itembg1{
+    width: 335px;
+    height: 50px;
+    background-color: #F5F5F7;
+    border-radius: 10px;
+}
+.img5{
+    width: 1300px;
+    height: 775px;
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661027942322');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;;
+    position: sticky;
+    top: 0px;
+    transition: 3s ease;
+}
+.itembg2{
+    width: 320px;
+    height: 80px;
+    background-color: #F5F5F7;
+    border-radius: 10px;
+}
+.text-12{
+    font-size: 25px;
+    margin-top: 120px;
+    color: gray;
+}
+.text-13{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.blue{
+    background-color: #A7B8CA;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.purple{
+    background-color: #E5DDEA;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.black{
+    background-color: #313840;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.white{
+    background-color: #FAF7F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.red{
+    background-color: #FC1937;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.btn-class{
+    margin-top: 25px;
+    display: flex;
+}
+.text-14{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.btn{
+    margin-right: 10px;
+}
+.text-15{
+    margin-top: 30px;
+    font-size: 12px;
+    color: gray;
+}
+.text-16{
+    color: gray;
+    margin-top: 120px;
+    font-size: 23px;
+}
+.block-text-img{
+    width: 325px;
+    height: 130px;
+    background-color: #F5F5F7;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.img-3{
+    object-fit: cover;
+    width: 150px;
+    height: 130px;
+    border-radius: 20px 0px 0px 20px;
+}
+.text-17{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.text-18{
+    font-size: 12px;
+}
+.block-text-1{
+    margin-left:10px ;
+}
+.modal {
+    opacity: 0;
+    display: none;
+    margin-top: 300px;
+    width: 816px;
+    height: 1500px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.2);
+    z-index: 100;
+    transition: .5s ease;
+    position: absolute;
+    border-radius: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+.modal_bg {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 260vh;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .5s ease;
+}
+
+.cross {
+    width: 36px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.top {
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.top p{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    color: #1d1d1f;
+    margin-top: 20px;
+}
+
+.top a {
+    color: #06c;
+}
+
+.bank {
+    margin-top: 30px;
+   
+}
+
+.bank img {
+    width: 102px;
+    height: 44px;
+    margin-left: 15px; 
+}
+
+.bank img:hover {
+    filter: invert(100%) grayscale(100%);  
+}
+
+select {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.top span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.footer {
+    background-color: #F5F5F7;
+    margin-top: 40px;
+    padding: 30px 40px 40px 40px;
+}
+
+.accardion {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 20px 0px 20px;
+}
+
+.cont {
+    padding: 0px 20px 20px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.accardion hr {
+    margin-top: 30px;
+}
+
+.accardion img {
+    width: 30px;
+    height: 30px;
+}
+
+.info-acc p{
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.info-acc span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.info-acc b{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.span{
+    color: #06c;
+    cursor: pointer;
+}
+.footer-text{
+    margin-top: 20px;
+}
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+.slider__item {
+  flex: 1;
+  height: 100px;
+  margin-right: 10px;
+  background-color: #eee;
+}

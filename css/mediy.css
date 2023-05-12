@@ -1,0 +1,46 @@
+/* Планшетов X */
+@media (max-width: 1870px) {
+   .img5{
+    width:1200px ;
+    height: 500px;
+   }
+   .box-text-icon{
+    width: 900px;
+   }
+   #remove_text{
+    display: none;
+   }
+   #remove_img_2{
+    display: none;
+   }
+   .fiks-right{
+    position: relative;
+    right: 270px;
+   }
+   .text-1{
+    margin-left: 15px;
+   }
+}
+
+@media (max-width: 1462px) {
+    
+}
+
+@media (max-width: 992px) {
+   
+}
+
+/* Телефоны Х */
+@media (max-width: 700px) {
+   
+}
+
+/* Телефоны Y */
+@media (max-width: 576px) {
+   /* купи уже новый телефон! */
+  
+}
+@media (max-width: 376px) {
+   /* купи уже новый телефон! */
+   
+}
