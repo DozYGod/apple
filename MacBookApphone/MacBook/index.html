@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./icon/apple">
+    <title>MacBook</title>
+</head>
+<body>
+
+    <header>
+        <div class="box-text-img">
+             <img src="icon/s-l400.jpg" width="20px" height="20px" alt="">
+             <p class="text">store</p>
+             <p class="text">mad</p>
+             <p class="text">ipad</p>
+             <a href="../apple/index.html"><p class="text">iphone</p></a>
+             <p class="text">watch</p>
+             <p class="text">airpods</p>
+             <p class="text">tv & home</p>
+             <p class="text">only on apple</p>
+             <p class="text">accersories</p>
+             <p class="text">support</p>
+             <span class="material-symbols-outlined">search</span>
+             <span class="material-symbols-outlined">shopping_bag</span>
+        </div> 
+     </header>
+    <div class="container">
+            <h3>Supercharged for pros.</h3>
+            <p>The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip — the first Apple silicon designed <br> for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR <br> display, the best camera and audio ever in a Mac notebook, and all the ports you need. The first notebook of its kind, this <br> MacBook Pro is a beast.</p>
+            <div class="main">
+                <div class="left">
+                    <img id="macbook-img" class="img" src="./img/mbp14-spacegray-select-202110 1.svg" alt="">
+                </div>
+                <div class="right">
+                    <img class="right__img" src="./img/Macbook Pro.svg" alt="">
+                    <p class="right__text">White</p>
+                    <p id="price" class="money">$1999</p>
+                </div>
+            </div>
+            
+            <div class="block_but">
+                <button class="but_white" onclick="updateColor('White')">White</button>
+                <button class="but_grey" onclick="updateColor('Space Grey')">Space Grey</button>
+            </div>
+        <div class="btn">
+            <button class="but" onclick="updatePrice(0)">512 GB SSD</button>
+            <button class="but" onclick="updatePrice(200)">1 TB SSD  +$200</button>
+            <button class="but" onclick="updatePrice(600)">2 TB SSD  +$600</button>
+            <button class="but" onclick="updatePrice(1200)">4 TB SSD  +$1,200</button>
+        </div>
+    </div>
+
+   
+    <script src="./js/script.js"></script>
+</body>
+</html>
